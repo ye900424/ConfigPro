@@ -1,0 +1,36 @@
+server:
+    port: 9090
+
+#mybatis
+jdbc:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://121.42.253.157:3309/db_fun
+    username: root
+    password: 123456
+mybatis:
+    typeAliasesPackage: com.domain
+    mapperLocations: classpath:mapper/*.xml
+
+#config test
+config:
+    address: 泰兴市马店镇
+    tel: 18112996639
+
+configTest:
+    user: rrr
+    name: aaa
+    age:
+        - 100
+        - 0
+
+#redis
+redis:
+    cache:
+        clusterNodes: 121.42.253.157:7000
+        commandTimeout: 1000
+        expireSeconds: 120
+
+user:
+    id: 1
+    password: 111111
+    username: cy
