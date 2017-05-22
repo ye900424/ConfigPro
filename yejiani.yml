@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+test: dev
+
+spring:
+  profiles:
+    active: test
+test: test
