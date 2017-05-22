@@ -1,5 +1,5 @@
 spring:
-  profiles:dev
+  profiles: dev
 
 test: dev
 chaye: longjing
@@ -7,7 +7,7 @@ chaye: longjing
 ---
 
 spring:
-  profiles:test
+  profiles: test
 
 test: test
 chaye: tieguanyin
