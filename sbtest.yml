@@ -31,7 +31,7 @@ redis:
         expireSeconds: 120
 
     hostname: 121.42.253.157
-    port: 7001
+    port: 6379
 
 user:
     id: 1
