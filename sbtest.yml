@@ -30,6 +30,9 @@ redis:
         commandTimeout: 1000
         expireSeconds: 120
 
+    hostname: 121.42.253.157
+    port: 7001
+
 user:
     id: 1
     password: 111111
