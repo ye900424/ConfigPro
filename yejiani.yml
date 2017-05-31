@@ -5,9 +5,9 @@ test: dev
 chaye: longjing
 
 ---
-yyy: poo
+yyy: poo_123
 
-hhh: ppp_321
+hhh: ppp_321321
 spring:
   profiles: test
 
