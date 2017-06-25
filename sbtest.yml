@@ -1,5 +1,6 @@
 server:
-    port: 8800
+    port: 8081
+
 
 #mybatis
 jdbc:
