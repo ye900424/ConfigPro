@@ -1,7 +1,7 @@
 #模板配置
 
 spring:
-  profiles: test
+  profiles: dev
 
 server:
     port: 80
