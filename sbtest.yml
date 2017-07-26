@@ -1,3 +1,8 @@
+#模板配置
+---
+spring:
+  profiles: test
+
 server:
     port: 80
 
@@ -36,20 +41,8 @@ redis:
     password: cao890809
 
 
-#模板配置
----
-spring:
-  profiles: dev
-user:
-    id: 1
-    password: 111111
-    username: cy
 
 
-#模板配置
----
-spring:
-  profiles: test
 user:
     id: 2
     password: 222222
