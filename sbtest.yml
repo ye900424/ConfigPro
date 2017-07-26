@@ -28,7 +28,7 @@ configTest:
     age:
         - 100
         - 0
----
+
 #redis
 redis:
     cache:
