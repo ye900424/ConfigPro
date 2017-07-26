@@ -28,7 +28,7 @@ configTest:
     age:
         - 100
         - 0
-
+---
 #redis
 redis:
     cache:
@@ -45,5 +45,12 @@ redis:
 
 user:
     id: 2
+    password: 222222
+    username: cy
+
+spring:
+  profiles: test
+user:
+    id: 3
     password: 222222
     username: cy
