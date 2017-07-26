@@ -28,7 +28,7 @@ configTest:
     age:
         - 100
         - 0
-
+---
 #redis
 redis:
     cache:
@@ -49,7 +49,7 @@ user:
     username: cy
 
 
---
+---
 spring:
   profiles: dev
 user:
