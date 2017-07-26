@@ -8,9 +8,9 @@ server:
 
 ---
 spring:
-  profiles: dev
+  profiles: test
 server:
-    port: 80
+    port: 8087
 
 ---
 #mybatis
