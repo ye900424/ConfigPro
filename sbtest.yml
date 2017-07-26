@@ -17,6 +17,7 @@ mybatis:
     typeAliasesPackage: com.domain
     mapperLocations: classpath:mapper/*.xml
 
+---
 #config test
 config:
     address: 泰兴市马店镇
