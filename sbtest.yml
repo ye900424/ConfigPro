@@ -47,7 +47,9 @@ user:
     id: 2
     password: 222222
     username: cy
----
+
+
+--
 spring:
   profiles: dev
 user:
