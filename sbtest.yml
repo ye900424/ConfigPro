@@ -41,7 +41,7 @@ redis:
         commandTimeout: 1000
         expireSeconds: 120
 
-    hostname: 121.42.253.157
+    hostname: 39.105.17.168
     port: 6380
     password: cao890809
 
