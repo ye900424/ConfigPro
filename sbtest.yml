@@ -16,7 +16,7 @@ server:
 #mybatis
 jdbc:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://121.42.253.157:3309/db_fun
+    url: jdbc:mysql://39.105.17.168:3309/db_fun
     username: root
     password: 123456
 mybatis:
@@ -37,7 +37,7 @@ configTest:
 #redis
 redis:
     cache:
-        clusterNodes: 121.42.253.157:7000
+        clusterNodes: 39.105.17.168:7000
         commandTimeout: 1000
         expireSeconds: 120
 
