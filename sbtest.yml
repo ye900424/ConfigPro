@@ -45,7 +45,10 @@ redis:
     port: 6380
     password: cao890809
 
-
+elaticjob:
+  zookeeper:
+    server-lists: 39.105.17.168:2181
+    namespace: myJob
 
 
 user:
